@@ -1,5 +1,5 @@
 {
-  "tecnopanel": "1.2.5",
+  "tecnopanel": "1.2.6",
   "tecnocssglobal": "1.1.3",
   "tecnocancelarpedido": "1.0.0",
   "tecnologin": "1.0.0",
@@ -12,5 +12,8 @@
   "tecnoseguridad": "1.2.2",
   "tecnoproteccion": "1.0.0",
   "tecnoantispam": "1.0.2",
+  "tecnobanner": "1.0.0",
+  "tecnonuevos": "1.5.0",
+  "tecnovitrina": "1.0.0",
   "tecnoscan": "1.0.7"
 }
