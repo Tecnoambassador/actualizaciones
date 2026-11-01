@@ -1,5 +1,5 @@
 {
-  "tecnopanel": "1.2.6",
+  "tecnopanel": "1.3.0",
   "tecnocssglobal": "1.1.3",
   "tecnocancelarpedido": "1.0.0",
   "tecnologin": "1.0.0",
@@ -9,15 +9,15 @@
   "tecnowhatsapp": "1.4.4",
   "tecnolimpieza": "1.5.0",
   "tecnowapromo": "1.0.0",
-  "tecnoseguridad": "1.3.0",
+  "tecnoseguridad": "1.3.1",
   "tecnoproteccion": "1.0.0",
   "tecnoantispam": "1.0.2",
-  "tecnobanner": "1.1.0",
-  "tecnobanners": "1.0.9",
-  "tecnonuevos": "1.5.0",
+  "tecnobanner": "1.2.1",
+  "tecnobanners": "1.0.11",
+  "tecnonuevos": "1.7.0",
   "tecnovitrina": "1.0.0",
-  "tecnodestacados": "1.3.1",
-  "tecnoatenerencuenta": "1.0.5",
+  "tecnodestacados": "1.4.2",
+  "tecnoatenerencuenta": "1.0.6",
   "tecnoofertas": "1.0.0",
   "tecnoscan": "1.0.9"
 }
