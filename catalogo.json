@@ -99,6 +99,7 @@
     "description": "Mandá publicidad por WhatsApp a los clientes con pedidos activos: mensajes con productos de la tienda, links e imágenes, con semáforo de validez del número.",
     "icon": "tecnowapromo.png"
   },
+  "tecnoprueba": { "name": "Tecno Prueba", "description": "Módulo de prueba.", "icon": "tecnologin.png" }.
   "tecnowhatsapp": {
     "name": "Tecno WhatsApp",
     "description": "Escribile por WhatsApp a los clientes con pedidos activos desde el backoffice, con semáforo de validez del número.",
