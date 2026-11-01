@@ -1,0 +1,96 @@
+{
+  "tecnoantispam": {
+    "name": "Tecno AntiSpam",
+    "description": "Protege el formulario de contacto, registro, newsletter y más contra spam y bots."
+  },
+  "tecnoarchivospedido": {
+    "name": "Tecno Archivos Pedido",
+    "description": "Adjuntá facturas y otros archivos a los pedidos y enviáselos al cliente por mail."
+  },
+  "tecnoatenerencuenta": {
+    "name": "A tener en cuenta",
+    "description": "Carrusel con productos más vistos en orden aleatorio (hasta 6).",
+    "icon": "tecnoatenerencuenta.png"
+  },
+  "tecnobanner": {
+    "name": "Tecno Banner",
+    "description": "Slider de banners para la parte superior de la tienda (displayTopColumn) con imágenes distintas para desktop y celular, transiciones, links y programación.",
+    "icon": "tecnobanner.png"
+  },
+  "tecnobanners": {
+    "name": "Tecno Banners",
+    "description": "3 imágenes con link en desktop y slider de 1 imagen en celular. No estira ni recorta, con espacios laterales configurables.",
+    "icon": "tecnobanners.png"
+  },
+  "tecnocancelarpedido": {
+    "name": "Tecno Cancelar Pedido",
+    "description": "Permite que tus clientes cancelen sus pedidos solos desde su cuenta."
+  },
+  "tecnocssglobal": {
+    "name": "Tecno CSS Global",
+    "description": "Agregá CSS personalizados a todo el front office y activalos o desactivalos de a uno."
+  },
+  "tecnodestacados": {
+    "name": "Tecno Destacados y Vendidos",
+    "description": "Dos filas en la portada: Productos Destacados (elegidos por vos, máximo 10) y Más Vendidos, en orden aleatorio. Solo para el hook displayTopColumn.",
+    "icon": "tecnodestacados.png"
+  },
+  "tecnolimpieza": {
+    "name": "Tecno Limpieza",
+    "description": "Limpieza de pedidos viejos, clientes y visitantes sin pedidos y datos sueltos, con backup y restauración.",
+    "icon": "tecnolimpieza.png"
+  },
+  "tecnologin": {
+    "name": "Tecno Login - Ingresar como cliente",
+    "description": "Ingresá al front office como cualquier cliente registrado, con registro de auditoría."
+  },
+  "tecnomicrodatos": {
+    "name": "Tecno Microdatos",
+    "description": "Datos estructurados JSON-LD limpios y sin duplicados, para que los buscadores entiendan tu tienda.",
+    "icon": "tecnomicrodatos.png"
+  },
+  "tecnonuevos": {
+    "name": "Tecno Productos Nuevos",
+    "description": "Muestra automáticamente como nuevos los productos que recibieron un cambio de foto en un tiempo configurable, con animaciones a elegir.",
+    "icon": "tecnonuevos.png"
+  },
+  "tecnoofertas": {
+    "name": "Tecno Ofertas",
+    "description": "Muestra los productos en oferta en la columna izquierda y/o derecha, con cantidad de productos configurable para escritorio y celular.",
+    "icon": "tecnoofertas.png"
+  },
+  "tecnopanel": {
+    "name": "Tecno Panel",
+    "description": "Panel para activar, desactivar y mantener los módulos Tecno desde un solo lugar.",
+    "icon": "tecnopanel.png"
+  },
+  "tecnoproteccion": {
+    "name": "Tecno Protección de Contenido",
+    "description": "Dificulta que copien el contenido de tu tienda: bloquea el click derecho, la selección de texto, los atajos del inspector y protege las imágenes.",
+    "icon": "tecnoproteccion.png"
+  },
+  "tecnoscan": {
+    "name": "TecnoScan · Escáner de códigos de barra para móvil",
+    "description": "Botón junto al buscador que abre la cámara del móvil, lee el código de barras y lleva directo al producto."
+  },
+  "tecnoseguridad": {
+    "name": "Tecno Seguridad",
+    "description": "Verificación en 2 pasos (TOTP) para el back office.",
+    "icon": "tecnoseguridad.png"
+  },
+  "tecnovitrina": {
+    "name": "Tecno Vitrina",
+    "description": "Muestra hasta 6 categorías a elección, cada una en su propia fila de productos, con animaciones de entrada a elegir.",
+    "icon": "tecnovitrina.png"
+  },
+  "tecnowapromo": {
+    "name": "Tecno WhatsApp Promos",
+    "description": "Mandá publicidad por WhatsApp a los clientes con pedidos activos: mensajes con productos de la tienda, links e imágenes, con semáforo de validez del número.",
+    "icon": "tecnowapromo.png"
+  },
+  "tecnowhatsapp": {
+    "name": "Tecno WhatsApp",
+    "description": "Escribile por WhatsApp a los clientes con pedidos activos desde el backoffice, con semáforo de validez del número.",
+    "icon": "tecnowhatsapp.png"
+  }
+}
