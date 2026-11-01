@@ -1,11 +1,13 @@
 {
   "tecnoantispam": {
     "name": "Tecno AntiSpam",
-    "description": "Protege el formulario de contacto, registro, newsletter y más contra spam y bots."
+    "description": "Protege el formulario de contacto, registro, newsletter y más contra spam y bots.",
+    "icon": "tecnoantispam.png"
   },
   "tecnoarchivospedido": {
     "name": "Tecno Archivos Pedido",
-    "description": "Adjuntá facturas y otros archivos a los pedidos y enviáselos al cliente por mail."
+    "description": "Adjuntá facturas y otros archivos a los pedidos y enviáselos al cliente por mail.",
+    "icon": "tecnoarchivospedido.png"
   },
   "tecnoatenerencuenta": {
     "name": "A tener en cuenta",
@@ -24,16 +26,23 @@
   },
   "tecnocancelarpedido": {
     "name": "Tecno Cancelar Pedido",
-    "description": "Permite que tus clientes cancelen sus pedidos solos desde su cuenta."
+    "description": "Permite que tus clientes cancelen sus pedidos solos desde su cuenta, sin tener que escribirte.",
+    "icon": "tecnocancelarpedido.png"
   },
   "tecnocssglobal": {
     "name": "Tecno CSS Global",
-    "description": "Agregá CSS personalizados a todo el front office y activalos o desactivalos de a uno."
+    "description": "Agregá CSS personalizados a todo el front office, guardalos con nombre y activalos o desactivalos de a uno.",
+    "icon": "tecnocssglobal.png"
   },
   "tecnodestacados": {
     "name": "Tecno Destacados y Vendidos",
     "description": "Dos filas en la portada: Productos Destacados (elegidos por vos, máximo 10) y Más Vendidos, en orden aleatorio. Solo para el hook displayTopColumn.",
     "icon": "tecnodestacados.png"
+  },
+  "tecnoestados": {
+    "name": "Tecno Estados",
+    "description": "Colores de estados de pedido por código hex y limpieza segura de estados sin uso, con respaldo y restauración.",
+    "icon": "tecnoestados.png"
   },
   "tecnolimpieza": {
     "name": "Tecno Limpieza",
@@ -42,7 +51,8 @@
   },
   "tecnologin": {
     "name": "Tecno Login - Ingresar como cliente",
-    "description": "Ingresá al front office como cualquier cliente registrado, con registro de auditoría."
+    "description": "Ingresá al front office como cualquier cliente registrado, con aviso visible, registro de auditoría y control de permisos.",
+    "icon": "tecnologin.png"
   },
   "tecnomicrodatos": {
     "name": "Tecno Microdatos",
@@ -71,7 +81,8 @@
   },
   "tecnoscan": {
     "name": "TecnoScan · Escáner de códigos de barra para móvil",
-    "description": "Botón junto al buscador que abre la cámara del móvil, lee el código de barras y lleva directo al producto."
+    "description": "Agrega un botón junto al buscador que abre la cámara del móvil, lee el código de barras y lleva directo al producto.",
+    "icon": "tecnoscan.png"
   },
   "tecnoseguridad": {
     "name": "Tecno Seguridad",
