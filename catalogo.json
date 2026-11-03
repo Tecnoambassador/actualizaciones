@@ -4,6 +4,11 @@
     "description": "Protege el formulario de contacto, registro, newsletter y más contra spam y bots.",
     "icon": "tecnoantispam.png"
   },
+  "tecnomenu": {
+    "name": "Tecno Menú",
+    "description": "Barra fija con buscador, carrito lateral, menú de categorías y árbol de categorías para tu tienda.",
+    "icon": "tecnomenu.png"
+  },
   "tecnoarchivospedido": {
     "name": "Tecno Archivos Pedido",
     "description": "Adjuntá facturas y otros archivos a los pedidos y enviáselos al cliente por mail.",
