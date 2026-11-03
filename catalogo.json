@@ -2,111 +2,139 @@
   "tecnoantispam": {
     "name": "Tecno AntiSpam",
     "description": "Protege el formulario de contacto, registro, newsletter y más contra spam y bots.",
+    "description_en": "Protects the contact, registration and newsletter forms (and more) against spam and bots.",
     "icon": "tecnoantispam.png"
-  },
-  "tecnomenu": {
-    "name": "Tecno Menú",
-    "description": "Barra fija con buscador, carrito lateral, menú de categorías y árbol de categorías para tu tienda.",
-    "icon": "tecnomenu.png"
   },
   "tecnoarchivospedido": {
     "name": "Tecno Archivos Pedido",
     "description": "Adjuntá facturas y otros archivos a los pedidos y enviáselos al cliente por mail.",
+    "description_en": "Attach invoices and other files to orders and email them to the customer.",
     "icon": "tecnoarchivospedido.png"
   },
   "tecnoatenerencuenta": {
     "name": "A tener en cuenta",
     "description": "Carrusel con productos más vistos en orden aleatorio (hasta 6).",
+    "description_en": "Carousel of the most viewed products in random order (up to 6).",
     "icon": "tecnoatenerencuenta.png"
   },
   "tecnobanner": {
     "name": "Tecno Banner",
     "description": "Slider de banners para la parte superior de la tienda (displayTopColumn) con imágenes distintas para desktop y celular, transiciones, links y programación.",
+    "description_en": "Banner slider for the top of the store (displayTopColumn) with different images for desktop and mobile, transitions, links and scheduling.",
     "icon": "tecnobanner.png"
   },
   "tecnobanners": {
     "name": "Tecno Banners",
     "description": "3 imágenes con link en desktop y slider de 1 imagen en celular. No estira ni recorta, con espacios laterales configurables.",
+    "description_en": "3 images with links on desktop and a 1-image slider on mobile. It doesn't stretch or crop, with configurable side spacing.",
     "icon": "tecnobanners.png"
   },
   "tecnocancelarpedido": {
     "name": "Tecno Cancelar Pedido",
     "description": "Permite que tus clientes cancelen sus pedidos solos desde su cuenta, sin tener que escribirte.",
+    "description_en": "Lets your customers cancel their own orders from their account, without having to write to you.",
     "icon": "tecnocancelarpedido.png"
+  },
+  "tecnocandado": {
+    "name": "Tecno Candado",
+    "description": "Bloquea el backoffice con un modal y un código de desbloqueo. Si se cierra la pestaña, pide login de nuevo.",
+    "description_en": "Locks the back office with a modal and an unlock code. If the tab is closed, it asks for login again.",
+    "icon": "tecnocandado.png"
   },
   "tecnocssglobal": {
     "name": "Tecno CSS Global",
     "description": "Agregá CSS personalizados a todo el front office, guardalos con nombre y activalos o desactivalos de a uno.",
+    "description_en": "Add custom CSS to the whole front office, save each one with a name and enable or disable them one by one.",
     "icon": "tecnocssglobal.png"
   },
   "tecnodestacados": {
     "name": "Tecno Destacados y Vendidos",
     "description": "Dos filas en la portada: Productos Destacados (elegidos por vos, máximo 10) y Más Vendidos, en orden aleatorio. Solo para el hook displayTopColumn.",
+    "description_en": "Two rows on the home page: Featured Products (chosen by you, max 10) and Best Sellers, in random order. Only for the displayTopColumn hook.",
     "icon": "tecnodestacados.png"
   },
   "tecnoestados": {
     "name": "Tecno Estados",
     "description": "Colores de estados de pedido por código hex y limpieza segura de estados sin uso, con respaldo y restauración.",
+    "description_en": "Order status colors by hex code and safe cleanup of unused statuses, with backup and restore.",
     "icon": "tecnoestados.png"
   },
   "tecnolimpieza": {
     "name": "Tecno Limpieza",
     "description": "Limpieza de pedidos viejos, clientes y visitantes sin pedidos y datos sueltos, con backup y restauración.",
+    "description_en": "Cleanup of old orders, customers and visitors without orders, and stray data, with backup and restore.",
     "icon": "tecnolimpieza.png"
   },
   "tecnologin": {
     "name": "Tecno Login - Ingresar como cliente",
     "description": "Ingresá al front office como cualquier cliente registrado, con aviso visible, registro de auditoría y control de permisos.",
+    "description_en": "Log in to the front office as any registered customer, with a visible notice, audit log and permission control.",
     "icon": "tecnologin.png"
+  },
+  "tecnomenu": {
+    "name": "Tecno Menú",
+    "description": "Barra fija con buscador, carrito lateral, menú de categorías y árbol de categorías para tu tienda.",
+    "description_en": "Fixed bar with search, side cart, category menu and category tree for your store.",
+    "icon": "tecnomenu.png"
   },
   "tecnomicrodatos": {
     "name": "Tecno Microdatos",
     "description": "Datos estructurados JSON-LD limpios y sin duplicados, para que los buscadores entiendan tu tienda.",
+    "description_en": "Clean, duplicate-free JSON-LD structured data, so search engines understand your store.",
     "icon": "tecnomicrodatos.png"
   },
   "tecnonuevos": {
     "name": "Tecno Productos Nuevos",
     "description": "Muestra automáticamente como nuevos los productos que recibieron un cambio de foto en un tiempo configurable, con animaciones a elegir.",
+    "description_en": "Automatically shows as new the products whose photo changed within a configurable time, with animations to choose from.",
     "icon": "tecnonuevos.png"
   },
   "tecnoofertas": {
     "name": "Tecno Ofertas",
     "description": "Muestra los productos en oferta en la columna izquierda y/o derecha, con cantidad de productos configurable para escritorio y celular.",
+    "description_en": "Shows products on sale in the left and/or right column, with a configurable number of products for desktop and mobile.",
     "icon": "tecnoofertas.png"
   },
   "tecnopanel": {
     "name": "Tecno Panel",
     "description": "Panel para activar, desactivar y mantener los módulos Tecno desde un solo lugar.",
+    "description_en": "Panel to enable, disable and maintain the Tecno modules from a single place.",
     "icon": "tecnopanel.png"
   },
   "tecnoproteccion": {
     "name": "Tecno Protección de Contenido",
     "description": "Dificulta que copien el contenido de tu tienda: bloquea el click derecho, la selección de texto, los atajos del inspector y protege las imágenes.",
+    "description_en": "Makes it harder to copy your store's content: blocks right click, text selection and inspector shortcuts, and protects images.",
     "icon": "tecnoproteccion.png"
   },
   "tecnoscan": {
     "name": "TecnoScan · Escáner de códigos de barra para móvil",
     "description": "Agrega un botón junto al buscador que abre la cámara del móvil, lee el código de barras y lleva directo al producto.",
+    "description_en": "Adds a button next to the search bar that opens the phone camera, reads the barcode and takes you straight to the product.",
     "icon": "tecnoscan.png"
   },
   "tecnoseguridad": {
     "name": "Tecno Seguridad",
     "description": "Verificación en 2 pasos (TOTP) para el back office.",
+    "description_en": "2-step verification (TOTP) for the back office.",
     "icon": "tecnoseguridad.png"
   },
   "tecnovitrina": {
     "name": "Tecno Vitrina",
     "description": "Muestra hasta 6 categorías a elección, cada una en su propia fila de productos, con animaciones de entrada a elegir.",
+    "description_en": "Shows up to 6 categories of your choice, each in its own row of products, with entrance animations to choose from.",
     "icon": "tecnovitrina.png"
   },
   "tecnowapromo": {
     "name": "Tecno WhatsApp Promos",
     "description": "Mandá publicidad por WhatsApp a los clientes con pedidos activos: mensajes con productos de la tienda, links e imágenes, con semáforo de validez del número.",
+    "description_en": "Send WhatsApp promotions to customers with active orders: messages with store products, links and images, with a number validity indicator.",
     "icon": "tecnowapromo.png"
   },
   "tecnowhatsapp": {
     "name": "Tecno WhatsApp",
     "description": "Escribile por WhatsApp a los clientes con pedidos activos desde el backoffice, con semáforo de validez del número.",
+    "description_en": "Message customers with active orders on WhatsApp from the back office, with a number validity indicator.",
     "icon": "tecnowhatsapp.png"
   }
 }
