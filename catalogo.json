@@ -77,6 +77,12 @@
     "description_en": "Log in to the front office as any registered customer, with a visible notice, audit log and permission control.",
     "icon": "tecnologin.png"
   },
+  "tecnomail": {
+    "name": "Tecno Mail",
+    "description": "Enviá mails desde el backoffice con la configuración nativa de la tienda: botón flotante, agenda de clientes, adjuntos que no se guardan, editor completo y mensajes predefinidos.",
+    "description_en": "Send mails from the back office with the native shop mail settings: floating button, customer address book, attachments that are never stored, full editor and predefined messages.",
+    "icon": "tecnomail.png"
+  },
   "tecnomenu": {
     "name": "Tecno Menú",
     "description": "Barra fija con buscador, carrito lateral, menú de categorías y árbol de categorías para tu tienda.",
