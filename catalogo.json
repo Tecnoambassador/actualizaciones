@@ -41,6 +41,12 @@
     "description_en": "Locks the back office with a modal and an unlock code. If the tab is closed, it asks for login again.",
     "icon": "tecnocandado.png"
   },
+  "tecnocolores": {
+    "name": "Tecno Colores",
+    "description": "Colores, tipografía, barra de anuncio y botón de WhatsApp para tu tienda, con ajustes de la ficha de producto.",
+    "description_en": "Colors, typography, announcement bar and WhatsApp button for your store, with product page settings.",
+    "icon": "tecnocolores.png"
+  },
   "tecnocssglobal": {
     "name": "Tecno CSS Global",
     "description": "Agregá CSS personalizados a todo el front office, guardalos con nombre y activalos o desactivalos de a uno.",
