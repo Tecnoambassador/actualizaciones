@@ -1,5 +1,5 @@
 {
-  "tecnopanel": "1.7.2",
+  "tecnopanel": "1.7.4",
   "tecnocssglobal": "1.2.0",
   "tecnocancelarpedido": "1.0.0",
   "tecnologin": "1.0.0",
@@ -19,8 +19,8 @@
   "tecnodestacados": "1.5.4",
   "tecnoatenerencuenta": "1.2.6",
   "tecnoofertas": "1.1.7",
-  "tecnomenu": "1.9.4",
+  "tecnomenu": "1.9.7",
   "tecnocandado": "1.0.5",
-  "tecnocolores": "1.10.7",
+  "tecnocolores": "1.10.9",
   "tecnoscan": "1.1.2"
 }
