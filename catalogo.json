@@ -113,6 +113,12 @@
     "description_en": "Panel to enable, disable and maintain the Tecno modules from a single place.",
     "icon": "tecnopanel.png"
   },
+  "tecnoprogramadas": {
+    "name": "Tecno Ofertas programadas",
+    "description": "Crea ofertas por categoría, porcentaje de descuento, día y horario. Se activan y se apagan solas, con banners de tiempo limitado para celular y escritorio.",
+    "description_en": "Create offers by category, discount percentage, day and time. They switch on and off by themselves, with limited-time banners for mobile and desktop.",
+    "icon": "tecnoprogramadas.png"
+  },
   "tecnoproteccion": {
     "name": "Tecno Protección de Contenido",
     "description": "Dificulta que copien el contenido de tu tienda: bloquea el click derecho, la selección de texto, los atajos del inspector y protege las imágenes.",
