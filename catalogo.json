@@ -65,6 +65,12 @@
     "description_en": "Order status colors by hex code and safe cleanup of unused statuses, with backup and restore.",
     "icon": "tecnoestados.png"
   },
+  "tecnofranja": {
+    "name": "Tecno Franja",
+    "description": "Franja fina y alargada con información prearmada: cuenta regresiva a Navidad, fin de año, Black Friday, cantidad de artículos, ofertas y más.",
+    "description_en": "Thin, wide strip with ready-made information: countdown to Christmas, New Year, Black Friday, number of items, offers and more.",
+    "icon": "tecnofranja.png"
+  },
   "tecnoinstagram": {
     "name": "Tecno Instagram",
     "description": "Armá publicaciones de Instagram con tus productos: imagen con IA, texto listo para copiar y videos para Reels con prompts originales (generación opcional, subida y recorte), con historial para no repetir.",
