@@ -65,6 +65,12 @@
     "description_en": "Order status colors by hex code and safe cleanup of unused statuses, with backup and restore.",
     "icon": "tecnoestados.png"
   },
+  "tecnoinstagram": {
+    "name": "Tecno Instagram",
+    "description": "Armá publicaciones de Instagram con tus productos: imagen con IA, texto listo para copiar y videos para Reels con prompts originales (generación opcional, subida y recorte), con historial para no repetir.",
+    "description_en": "Build Instagram posts from your products: AI image, ready-to-copy text and Reels videos with original prompts (optional generation, upload and trimming), with a history to avoid repeats.",
+    "icon": "tecnoinstagram.png"
+  },
   "tecnolimpieza": {
     "name": "Tecno Limpieza",
     "description": "Limpieza de pedidos viejos, clientes y visitantes sin pedidos y datos sueltos, con backup y restauración.",
