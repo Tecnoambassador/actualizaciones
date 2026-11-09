@@ -125,6 +125,12 @@
     "description_en": "Panel to enable, disable and maintain the Tecno modules from a single place.",
     "icon": "tecnopanel.png"
   },
+  "tecnoproductos": {
+    "name": "Tecno Productos",
+    "description": "Gestión rápida de productos desde el backoffice: grilla tipo Excel a pantalla grande, filtros, acciones masivas, IA para descripciones e historial con deshacer.",
+    "description_en": "Quick product management from the back office: full-screen Excel-like grid, filters, bulk actions, AI-written descriptions and an undoable history.",
+    "icon": "tecnoproductos.png"
+  },
   "tecnoprogramadas": {
     "name": "Tecno Ofertas programadas",
     "description": "Crea ofertas por categoría, porcentaje de descuento, día y horario. Se activan y se apagan solas, con banners de tiempo limitado para celular y escritorio.",
