@@ -80,8 +80,8 @@
   },
   "tecnoimagenes": {
     "name": "Tecno Imágenes",
-    "description": "Regenerá miniaturas por lotes con escaneo previo, pausa y cuidado del servidor para que no se corte con muchas imágenes.",
-    "description_en": "Regenerate thumbnails in batches with a pre-scan, pause and server protection so it doesn't choke on large catalogs.",
+    "description": "Regenerá miniaturas por lotes con escaneo previo y pausa, y limpiá imágenes viejas o sobrantes con papelera restaurable. Cuida el servidor.",
+    "description_en": "Regenerate thumbnails in batches with a pre-scan and pause, and clean up old or leftover images with a restorable trash. Protects your server.",
     "icon": "tecnoimagenes.png"
   },
   "tecnoinstagram": {
