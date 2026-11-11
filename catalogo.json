@@ -59,6 +59,13 @@
     "description_en": "Two rows on the home page: Featured Products (chosen by you, max 10) and Best Sellers, in random order. Only for the displayTopColumn hook.",
     "icon": "tecnodestacados.png"
   },
+  "tecnoescaner": {
+    "name": "Tecno Escáner",
+    "description": "Escanea tus módulos en busca de vulnerabilidades, código riesgoso y errores de configuración explotables.",
+    "description_en": "Scans your modules for vulnerabilities, risky code and exploitable configuration errors.",
+    "icon": "tecnoescaner.png",
+    "free": true
+  },
   "tecnoestados": {
     "name": "Tecno Estados",
     "description": "Colores de estados de pedido por código hex y limpieza segura de estados sin uso, con respaldo y restauración.",
