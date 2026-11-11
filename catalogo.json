@@ -78,6 +78,12 @@
     "description_en": "Thin, wide strip with ready-made information: countdown to Christmas, New Year, Black Friday, number of items, offers and more.",
     "icon": "tecnofranja.png"
   },
+  "tecnoimagenes": {
+    "name": "Tecno Imágenes",
+    "description": "Regenerá miniaturas por lotes con escaneo previo, pausa y cuidado del servidor para que no se corte con muchas imágenes.",
+    "description_en": "Regenerate thumbnails in batches with a pre-scan, pause and server protection so it doesn't choke on large catalogs.",
+    "icon": "tecnoimagenes.png"
+  },
   "tecnoinstagram": {
     "name": "Tecno Instagram",
     "description": "Armá publicaciones de Instagram con tus productos: imagen con IA, texto listo para copiar y videos para Reels con prompts originales (generación opcional, subida y recorte), con historial para no repetir.",
