@@ -1,0 +1,287 @@
+{
+  "version": 1,
+  "updated": "2026-11-11",
+  "nota": "Lista parcial y orientativa armada con avisos públicos (GitLab Advisory Database, GitHub Advisory Database, Friends of Presta y NVD). No es exhaustiva: que un módulo no figure acá no significa que sea seguro.",
+  "formato": "module (nombre técnico; @core = PrestaShop), affected (rango: <2.6.2, >=1.0 <1.5, y '||' para varios rangos), severity (high|medium|low), cve, title, fixed, url (opcional; si hay CVE y no hay url se enlaza a NVD).",
+  "entries": [
+    {
+      "module": "@core",
+      "affected": ">=1.6.0.10 <1.7.8.7",
+      "severity": "high",
+      "cve": "GMS-2022-3270",
+      "title": "Inyección de código (eval) posible si la tienda además sufre una inyección SQL",
+      "fixed": "1.7.8.7",
+      "url": "https://advisories.gitlab.com/pkg/composer/prestashop/prestashop/GMS-2022-3270/"
+    },
+    {
+      "module": "@core",
+      "affected": "<1.7.8.9 || >=8.0.0 <8.0.4",
+      "severity": "medium",
+      "cve": "CVE-2023-30545",
+      "title": "Un usuario del Gestor SQL del back office puede leer archivos del servidor (LOAD_FILE)",
+      "fixed": "1.7.8.9 / 8.0.4",
+      "url": "https://advisories.gitlab.com/pkg/composer/prestashop/prestashop/CVE-2023-30545/"
+    },
+    {
+      "module": "@core",
+      "affected": "<1.7.8.9 || >=8.0.0 <8.0.4",
+      "severity": "high",
+      "cve": "CVE-2023-30839",
+      "title": "Un usuario del back office puede escribir y borrar en la base de datos sin tener permisos (SQL)",
+      "fixed": "1.7.8.9 / 8.0.4",
+      "url": "https://advisories.gitlab.com/pkg/composer/prestashop/prestashop/CVE-2023-30839"
+    },
+    {
+      "module": "@core",
+      "affected": "<8.1.1",
+      "severity": "high",
+      "cve": "CVE-2023-39524",
+      "title": "Inyección SQL en el buscador de productos del back office",
+      "fixed": "8.1.1",
+      "url": "https://advisories.gitlab.com/pkg/composer/prestashop/prestashop/CVE-2023-39524/"
+    },
+    {
+      "module": "@core",
+      "affected": "<1.7.8.10 || >=8.0.0 <8.0.5 || ==8.1.0",
+      "severity": "high",
+      "cve": "CVE-2023-39526",
+      "title": "Ejecución remota de código por inyección SQL y escritura de archivos en el back office",
+      "fixed": "1.7.8.10 / 8.0.5 / 8.1.1",
+      "url": "https://advisories.gitlab.com/pkg/composer/prestashop/prestashop/CVE-2023-39526/"
+    },
+    {
+      "module": "ps_facetedsearch",
+      "affected": ">=3.0.0 <4.0.4",
+      "severity": "high",
+      "cve": "CVE-2026-54159",
+      "title": "Inyección de objetos PHP en la caché del buscador por facetas: ejecución remota sin autenticación (crítica)",
+      "fixed": "4.0.4",
+      "url": "https://github.com/advisories/GHSA-m5f5-28qr-9g9r"
+    },
+    {
+      "module": "ps_facetedsearch",
+      "affected": ">=2.2.1 <3.4.1",
+      "severity": "high",
+      "cve": "CVE-2017-9841",
+      "title": "El ZIP del módulo traía PHPUnit de desarrollo: permite ejecutar código si /vendor es accesible",
+      "fixed": "3.4.1",
+      "url": "https://advisories.gitlab.com/pkg/composer/prestashop/ps_facetedsearch/GMS-2020-583/"
+    },
+    {
+      "module": "autoupgrade",
+      "affected": ">=4.0.0 <4.10.1",
+      "severity": "high",
+      "cve": "CVE-2017-9841",
+      "title": "El ZIP del módulo traía PHPUnit de desarrollo: permite ejecutar código si /vendor es accesible",
+      "fixed": "4.10.1",
+      "url": "https://advisories.gitlab.com/pkg/composer/prestashop/autoupgrade/GMS-2020-573"
+    },
+    {
+      "module": "pscartabandonmentpro",
+      "affected": ">=2.0.1 <=2.0.10",
+      "severity": "high",
+      "cve": "CVE-2017-9841",
+      "title": "PHPUnit de desarrollo incluido en el módulo: permite ejecutar código si /vendor es accesible",
+      "fixed": "",
+      "url": "https://friends-of-presta.github.io/security-advisories/dependancies/2020/01/07/phpunit-CVE-2017-9841.html"
+    },
+    {
+      "module": "gamification",
+      "affected": ">=2.1.0 <=2.3.2",
+      "severity": "high",
+      "cve": "CVE-2017-9841",
+      "title": "PHPUnit de desarrollo incluido en el módulo: permite ejecutar código si /vendor es accesible",
+      "fixed": "",
+      "url": "https://friends-of-presta.github.io/security-advisories/dependancies/2020/01/07/phpunit-CVE-2017-9841.html"
+    },
+    {
+      "module": "ps_checkout",
+      "affected": ">=1.0.8 <=1.2.9",
+      "severity": "high",
+      "cve": "CVE-2017-9841",
+      "title": "PHPUnit de desarrollo incluido en el módulo: permite ejecutar código si /vendor es accesible",
+      "fixed": "",
+      "url": "https://friends-of-presta.github.io/security-advisories/dependancies/2020/01/07/phpunit-CVE-2017-9841.html"
+    },
+    {
+      "module": "ps_checkout",
+      "affected": ">=1.3.0 <4.4.1 || >=5.0.0 <5.0.5",
+      "severity": "high",
+      "cve": "CVE-2025-61922",
+      "title": "Toma de cuenta de un cliente por email mediante Express Checkout (inicio de sesión silencioso)",
+      "fixed": "4.4.1 / 5.0.5",
+      "url": "https://advisories.gitlab.com/pkg/composer/prestashop/ps_checkout/CVE-2025-61922"
+    },
+    {
+      "module": "ps_checkout",
+      "affected": "<4.4.1 || >=5.0.0 <5.0.5",
+      "severity": "medium",
+      "cve": "CVE-2025-61923",
+      "title": "Recorrido de directorios en el back office permite leer archivos del servidor",
+      "fixed": "4.4.1 / 5.0.5",
+      "url": "https://advisories.gitlab.com/pkg/composer/prestashop/ps_checkout/CVE-2025-61923"
+    },
+    {
+      "module": "ps_checkout",
+      "affected": "<4.4.1 || >=5.0.0 <5.0.5",
+      "severity": "low",
+      "cve": "CVE-2025-61924",
+      "title": "Desde el back office se puede cambiar la cuenta PayPal de destino (validación incompleta)",
+      "fixed": "4.4.1 / 5.0.5",
+      "url": "https://advisories.gitlab.com/pkg/composer/prestashop/ps_checkout/CVE-2025-61924/"
+    },
+    {
+      "module": "ps_emailsubscription",
+      "affected": ">=2.6.0 <2.6.1",
+      "severity": "medium",
+      "cve": "CVE-2021-21418",
+      "title": "XSS: un empleado puede inyectar JavaScript en la condición del newsletter",
+      "fixed": "2.6.1",
+      "url": "https://advisories.gitlab.com/pkg/composer/prestashop/ps_emailsubscription/CVE-2021-21418"
+    },
+    {
+      "module": "blockwishlist",
+      "affected": "<2.1.1",
+      "severity": "high",
+      "cve": "CVE-2022-31101",
+      "title": "Inyección SQL por un cliente autenticado",
+      "fixed": "2.1.1",
+      "url": "https://advisories.gitlab.com/pkg/composer/prestashop/blockwishlist/CVE-2022-31101/"
+    },
+    {
+      "module": "blockwishlist",
+      "affected": "<=3.0.2",
+      "severity": "medium",
+      "cve": "CVE-2026-92810",
+      "title": "Un cliente autenticado puede obtener el token para compartir cualquier lista de deseos",
+      "fixed": "",
+      "url": ""
+    },
+    {
+      "module": "psgdpr",
+      "affected": "<=1.4.3",
+      "severity": "medium",
+      "cve": "CVE-2026-92809",
+      "title": "Un cliente autenticado puede falsificar registros de consentimiento RGPD de otros clientes",
+      "fixed": "",
+      "url": ""
+    },
+    {
+      "module": "productcomments",
+      "affected": "<4.2.1",
+      "severity": "high",
+      "cve": "CVE-2020-26248",
+      "title": "Inyección SQL ciega: permite extraer datos o frenar MySQL",
+      "fixed": "4.2.1",
+      "url": "https://advisories.gitlab.com/pkg/composer/prestashop/productcomments/CVE-2020-26248"
+    },
+    {
+      "module": "ps_contactinfo",
+      "affected": "<3.3.3",
+      "severity": "low",
+      "cve": "CVE-2025-24027",
+      "title": "Posible XSS por el uso de nofilter en la plantilla (solo si otro módulo vulnerable lo permite)",
+      "fixed": "3.3.3",
+      "url": "https://advisories.gitlab.com/pkg/composer/prestashop/ps_contactinfo/CVE-2025-24027/"
+    },
+    {
+      "module": "helpdesk",
+      "affected": "<=2.4.0",
+      "severity": "high",
+      "cve": "CVE-2024-34990",
+      "title": "Un cliente puede subir archivos .php (Help Desk, FME Modules)",
+      "fixed": "",
+      "url": ""
+    },
+    {
+      "module": "helpdesk",
+      "affected": "<=2.4.0",
+      "severity": "high",
+      "cve": "CVE-2024-34992",
+      "title": "Inyección SQL en Tickets::getsearchedtickets() (Help Desk, FME Modules)",
+      "fixed": "",
+      "url": ""
+    },
+    {
+      "module": "channable",
+      "affected": "<=3.2.1",
+      "severity": "high",
+      "cve": "",
+      "title": "Un visitante puede hacer inyección SQL en el feed (Channable)",
+      "fixed": "",
+      "url": ""
+    },
+    {
+      "module": "jamarketplace",
+      "affected": "<=9.0.1",
+      "severity": "high",
+      "cve": "",
+      "title": "Un visitante puede subir archivos .php (JA Marketplace)",
+      "fixed": "",
+      "url": ""
+    },
+    {
+      "module": "bagoogleshopping",
+      "affected": "<=1.0.26",
+      "severity": "medium",
+      "cve": "CVE-2024-35050",
+      "title": "Inyección SQL por un visitante (Bulk Export to Google Merchant, Buy Addons)",
+      "fixed": "",
+      "url": ""
+    },
+    {
+      "module": "askforaquotemodul",
+      "affected": "<=1.0.51",
+      "severity": "high",
+      "cve": "CVE-2024-34988",
+      "title": "Inyección SQL (Create a Quote in Frontend + Backend Pro, Buy Addons)",
+      "fixed": "",
+      "url": ""
+    },
+    {
+      "module": "simpleimportproduct",
+      "affected": "<=6.5.0",
+      "severity": "high",
+      "cve": "CVE-2024-25847",
+      "title": "Inyección SQL (Product Catalog CSV/Excel Import, MyPrestaModules)",
+      "fixed": "",
+      "url": ""
+    },
+    {
+      "module": "prestasalesmanager",
+      "affected": "<9.0",
+      "severity": "high",
+      "cve": "",
+      "title": "Escalada de privilegios y exposición de datos por uploadLogo()/postProcess() (Account Manager, Presta World)",
+      "fixed": "",
+      "url": ""
+    },
+    {
+      "module": "soflexibilite",
+      "affected": "<4.1.26",
+      "severity": "high",
+      "cve": "",
+      "title": "Exposición de información sensible mediante un archivo de depuración (So Flexibilité, Common-Services)",
+      "fixed": "",
+      "url": ""
+    },
+    {
+      "module": "productdesigner",
+      "affected": "<1.178.36",
+      "severity": "medium",
+      "cve": "",
+      "title": "Recorrido de directorios en ajaxProcessCropImage() (Product Designer, Tunis Soft)",
+      "fixed": "",
+      "url": ""
+    },
+    {
+      "module": "newsletterpop",
+      "affected": "<2.6.1",
+      "severity": "high",
+      "cve": "",
+      "title": "Un visitante puede hacer inyección SQL (Newsletter Popup PRO, Active Design)",
+      "fixed": "",
+      "url": ""
+    }
+  ]
+}
