@@ -1,4 +1,10 @@
 {
+  "mercadopago": {
+    "name": "Tecno Mercado Pago",
+    "description": "Cobros con Mercado Pago en tu tienda: Checkout Pro con ventana emergente, tarjetas y pagos en efectivo que se pueden desactivar, ícono opcional, aviso por mail de errores y registro de avisos.",
+    "description_en": "Mercado Pago payments in your store: Checkout Pro with a pop-up window, cards and cash payments you can turn off, optional icon, email alerts for errors and a notification log.",
+    "icon": "mercadopago.png"
+  },
   "tecnoantispam": {
     "name": "Tecno AntiSpam",
     "description": "Protege el formulario de contacto, registro, newsletter y más contra spam y bots.",
