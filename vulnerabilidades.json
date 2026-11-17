@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updated": "2026-11-11",
-  "nota": "Lista parcial y orientativa armada con avisos públicos (GitLab Advisory Database, GitHub Advisory Database, Friends of Presta y NVD). No es exhaustiva: que un módulo no figure acá no significa que sea seguro.",
+  "updated": "2026-11-17",
+  "nota": "Lista parcial y orientativa armada con avisos públicos (GitLab Advisory Database, GitHub Advisory Database, Friends of Presta y NVD). No es exhaustiva: que un módulo no figure acá no significa que sea seguro. Los rangos de ps_checkout cubren la numeración 4.x/5.x; la numeración con prefijo de versión de PrestaShop (7.x, 8.x) no está confirmada.",
   "formato": "module (nombre técnico; @core = PrestaShop), affected (rango: <2.6.2, >=1.0 <1.5, y '||' para varios rangos), severity (high|medium|low), cve, title, fixed, url (opcional; si hay CVE y no hay url se enlaza a NVD).",
   "entries": [
     {
@@ -249,11 +249,11 @@
     },
     {
       "module": "prestasalesmanager",
-      "affected": "<9.0",
+      "affected": "<9.0.0",
       "severity": "high",
-      "cve": "",
-      "title": "Escalada de privilegios y exposición de datos por uploadLogo()/postProcess() (Account Manager, Presta World)",
-      "fixed": "",
+      "cve": "CVE-2024-25842",
+      "title": "Control externo del nombre o ruta de archivo (Account Manager - Sales Representative & Dealers - CRM, Presta World)",
+      "fixed": "9.0.0",
       "url": ""
     },
     {
@@ -282,6 +282,87 @@
       "title": "Un visitante puede hacer inyección SQL (Newsletter Popup PRO, Active Design)",
       "fixed": "",
       "url": ""
+    },
+    {
+      "module": "@core",
+      "affected": "<8.2.9 || >=9.0.0 <9.2.1",
+      "severity": "high",
+      "cve": "CVE-2026-129957",
+      "title": "Un empleado del back office puede escribir archivos fuera de la carpeta prevista al importar un tema o módulo (ZIP): ejecución de código",
+      "fixed": "8.2.9 / 9.2.1",
+      "url": "https://github.com/PrestaShop/PrestaShop/security/advisories/GHSA-7q68-ch46-pxmc"
+    },
+    {
+      "module": "@core",
+      "affected": "<8.2.9 || >=9.0.0 <9.2.1",
+      "severity": "medium",
+      "cve": "CVE-2026-71531",
+      "title": "API Webservice: una clave limitada a una tienda puede leer y modificar datos de todas las tiendas (solo afecta a instalaciones con Multitienda)",
+      "fixed": "8.2.9 / 9.2.1",
+      "url": ""
+    },
+    {
+      "module": "revsliderprestashop",
+      "affected": "*",
+      "severity": "high",
+      "cve": "CVE-2026-117360",
+      "title": "Slider Revolution para PrestaShop: sin autenticación permite escribir archivos y ejecutar código; ya fue explotada en una tienda real. No hay versión corregida: desinstalá y borrá la carpeta completa del módulo",
+      "fixed": "",
+      "url": "https://security.friendsofpresta.org/modules/2026/11/14/revsliderprestashop-cve-2026-117360.html"
+    },
+    {
+      "module": "advancedpopupcreator",
+      "affected": "<1.2.7",
+      "severity": "high",
+      "cve": "CVE-2025-69633",
+      "title": "Inyección SQL sin autenticación en popup.php (Advanced Popup Creator, Idnovate)",
+      "fixed": "1.2.7",
+      "url": "https://security.friendsofpresta.org/modules/2026/02/16/advancedpopupcreator-cve-2025-69633.html"
+    },
+    {
+      "module": "upsshipping",
+      "affected": "*",
+      "severity": "medium",
+      "cve": "CVE-2026-39079",
+      "title": "Los logs con credenciales de la API de UPS y datos de clientes son accesibles públicamente (UPS Shipping). El proveedor ya no existe: desinstalá y borrá la carpeta",
+      "fixed": "",
+      "url": "https://security.friendsofpresta.org/modules/2026/05/21/upsshipping-cve-2026-39079.html"
+    },
+    {
+      "module": "pk_themesettings",
+      "affected": "*",
+      "severity": "high",
+      "cve": "CVE-2024-36678",
+      "title": "Inyección SQL por un visitante (Theme settings, Promokit.eu). El autor no sabe qué versiones están afectadas: considerá todas vulnerables",
+      "fixed": "",
+      "url": "https://security.friendsofpresta.org/modules/2024/06/18/pk_themesettings.html"
+    },
+    {
+      "module": "prestapdf",
+      "affected": "*",
+      "severity": "high",
+      "cve": "CVE-2024-34989",
+      "title": "Inyección SQL por un visitante (RSI PDF/HTML catalog evolution). El autor no la corrige y hay un problema de diseño: conviene desinstalarlo",
+      "fixed": "",
+      "url": "https://security.friendsofpresta.org/modules/2024/06/20/prestapdf.html"
+    },
+    {
+      "module": "simpleimportproduct",
+      "affected": "<=6.7.0",
+      "severity": "high",
+      "cve": "CVE-2024-25846",
+      "title": "Un visitante puede subir archivos .php (Product Catalog CSV/Excel Import, MyPrestaModules); la 6.7.1 solo ocultó el archivo y el riesgo sigue siendo crítico",
+      "fixed": "",
+      "url": "https://security.friendsofpresta.org/modules/2024/02/27/simpleimportproduct.html"
+    },
+    {
+      "module": "ps_checkout",
+      "affected": "<5.3.0",
+      "severity": "low",
+      "cve": "GHSA-mqq7-wxx5-mp8h",
+      "title": "Invocación de métodos no autorizada por validación de entrada insuficiente (impacto bajo)",
+      "fixed": "5.3.0",
+      "url": "https://dev.to/cverports/ghsa-mqq7-wxx5-mp8h-ghsa-mqq7-wxx5-mp8h-unauthorized-method-invocation-in-prestashop-checkout-5fbd"
     }
   ]
 }
