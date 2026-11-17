@@ -144,6 +144,12 @@
     "description_en": "Panel to enable, disable and maintain the Tecno modules from a single place.",
     "icon": "tecnopanel.png"
   },
+  "tecnopedidovoz": {
+    "name": "Tecno Pedido por Voz",
+    "description": "Tus clientes dictan o escriben su pedido y lo agregan al carrito desde un banner: resultados en tarjetas, fragancias y variantes, y dictado por el navegador o por servidor (Whisper).",
+    "description_en": "Your customers say or type their order and add it to the cart from a banner: results as cards, fragrances and variants, and dictation by the browser or by server (Whisper).",
+    "icon": "tecnopedidovoz.png"
+  },
   "tecnoposiciones": {
     "name": "Tecno Posiciones",
     "description": "Ordená los módulos de tu tienda arrastrándolos: cambiá posiciones y zonas del front de forma visual.",
