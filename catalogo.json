@@ -144,6 +144,12 @@
     "description_en": "Panel to enable, disable and maintain the Tecno modules from a single place.",
     "icon": "tecnopanel.png"
   },
+  "tecnoposiciones": {
+    "name": "Tecno Posiciones",
+    "description": "Ordená los módulos de tu tienda arrastrándolos: cambiá posiciones y zonas del front de forma visual.",
+    "description_en": "Sort your store modules by dragging them: change positions and front zones visually.",
+    "icon": "tecnoposiciones.png"
+  },
   "tecnoproductos": {
     "name": "Tecno Productos",
     "description": "Gestión rápida de productos desde el backoffice: grilla tipo Excel a pantalla grande, filtros, acciones masivas, IA para descripciones e historial con deshacer.",
