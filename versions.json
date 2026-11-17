@@ -1,5 +1,5 @@
 {
-  "mercadopago": "50.0.4",
+  "mercadopago": "5.0.4",
   "tecnoantispam": "1.2.1",
   "tecnoarchivospedido": "1.0.1",
   "tecnoatenerencuenta": "1.3.0",
@@ -23,6 +23,7 @@
   "tecnonuevos": "1.8.4",
   "tecnoofertas": "1.1.7",
   "tecnopanel": "1.8.4",
+  "tecnopedidovoz": "1.3.2",
   "tecnoposiciones": "1.0.2",
   "tecnoproductos": "1.2.2",
   "tecnoprogramadas": "1.0.0",
