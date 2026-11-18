@@ -144,6 +144,12 @@
     "description_en": "Panel to enable, disable and maintain the Tecno modules from a single place.",
     "icon": "tecnopanel.png"
   },
+  "tecnopasskey": {
+    "name": "Tecno Passkey",
+    "description": "Tus clientes ingresan a la tienda con huella, rostro o PIN del dispositivo, sin escribir la contraseña. No guarda datos biométricos y el login clásico sigue funcionando.",
+    "description_en": "Your customers sign in to the store with fingerprint, face or device PIN, without typing a password. It never stores biometric data and the classic login keeps working.",
+    "icon": "tecnopasskey.png"
+  },
   "tecnopedidovoz": {
     "name": "Tecno Pedido por Voz",
     "description": "Tus clientes dictan o escriben su pedido y lo agregan al carrito desde un banner: resultados en tarjetas, fragancias y variantes, y dictado por el navegador o por servidor (Whisper).",
