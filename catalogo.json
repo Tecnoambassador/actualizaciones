@@ -78,6 +78,12 @@
     "description_en": "Order status colors by hex code and safe cleanup of unused statuses, with backup and restore.",
     "icon": "tecnoestados.png"
   },
+  "tecnofacturacion": {
+    "name": "Tecno Facturación",
+    "description": "Facturación electrónica de ARCA (ex AFIP) directo desde el backoffice y sin intermediarios: varios CUITs, facturas de pedidos o manuales con libreta de clientes, notas de crédito, comprobante en PDF con QR, búsqueda para reimprimir y envío por mail con Tecno Mail.",
+    "description_en": "ARCA (ex AFIP) electronic invoicing straight from the back office, with no intermediaries: multiple CUITs, invoices from orders or manual ones with a customer address book, credit notes, PDF documents with QR, search to reprint and sending by email with Tecno Mail.",
+    "icon": "tecnofacturacion.png"
+  },
   "tecnofranja": {
     "name": "Tecno Franja",
     "description": "Franja fina y alargada con información prearmada: cuenta regresiva a Navidad, fin de año, Black Friday, cantidad de artículos, ofertas y más.",
