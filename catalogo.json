@@ -47,6 +47,12 @@
     "description_en": "Locks the back office with a modal and an unlock code. If the tab is closed, it asks for login again.",
     "icon": "tecnocandado.png"
   },
+  "tecnocarteles": {
+    "name": "Tecno Carteles",
+    "description": "Imprimí carteles de precios para tus góndolas: 8 diseños y varios tamaños, con o sin oferta (precio tachado y % de descuento), a color o en blanco y negro, acomodados para que entren los máximos en la hoja A4. Con vista previa, filtros por fecha de cambio de precio y listas guardadas para reimprimir todo junto cuando algo cambia.",
+    "description_en": "Print price signs for your store shelves: 8 designs and several sizes, with or without offers (struck-through price and discount %), in color or black and white, laid out to fit as many as possible on an A4 sheet. With live preview, filters by price-change date and saved lists to reprint everything together when something changes.",
+    "icon": "tecnocarteles.png"
+  },
   "tecnocolores": {
     "name": "Tecno Colores",
     "description": "Colores, tipografía, barra de anuncio y botón de WhatsApp para tu tienda, con ajustes de la ficha de producto.",
