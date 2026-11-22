@@ -90,6 +90,18 @@
     "description_en": "ARCA (ex AFIP) electronic invoicing straight from the back office, with no intermediaries: multiple CUITs, invoices from orders or manual ones with a customer address book, credit notes, PDF documents with QR, search to reprint and sending by email with Tecno Mail.",
     "icon": "tecnofacturacion.png"
   },
+  "tecnofluxcolores": {
+    "name": "Tecno Flux Colores",
+    "description": "Colores, tipografía, barra de anuncio y botón de WhatsApp para el tema Tecno Theme Flux, con su propia paleta. Convive con Tecno Colores sin pisarse: solo actúa cuando Flux es el tema activo.",
+    "description_en": "Colors, typography, announcement bar and WhatsApp button for the Tecno Theme Flux theme, with its own palette. It lives next to Tecno Colores without clashing: it only acts when Flux is the active theme.",
+    "icon": "tecnofluxcolores.png"
+  },
+  "tecnofluxmenu": {
+    "name": "Tecno Flux Menú",
+    "description": "Barra fija con buscador, carrito lateral, menú de categorías y árbol de categorías para el tema Tecno Theme Flux. Convive con Tecno Menú sin pisarse: solo actúa cuando Flux es el tema activo.",
+    "description_en": "Fixed bar with search, side cart, category menu and category tree for the Tecno Theme Flux theme. It lives next to Tecno Menú without clashing: it only acts when Flux is the active theme.",
+    "icon": "tecnofluxmenu.png"
+  },
   "tecnofranja": {
     "name": "Tecno Franja",
     "description": "Franja fina y alargada con información prearmada: cuenta regresiva a Navidad, fin de año, Black Friday, cantidad de artículos, ofertas y más.",
