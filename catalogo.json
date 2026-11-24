@@ -144,6 +144,12 @@
     "description_en": "Fixed bar with search, side cart, category menu and category tree for your store.",
     "icon": "tecnomenu.png"
   },
+  "tecnomerchant": {
+    "name": "Tecno Merchant",
+    "description": "Feed de productos para Google Merchant Center con las categorías de Google asignadas automáticamente por IA (Gemini gratis).",
+    "description_en": "Product feed for Google Merchant Center with Google categories assigned automatically by AI (free Gemini).",
+    "icon": "tecnomerchant.png"
+  },
   "tecnomicrodatos": {
     "name": "Tecno Microdatos",
     "description": "Datos estructurados JSON-LD limpios y sin duplicados, para que los buscadores entiendan tu tienda.",
