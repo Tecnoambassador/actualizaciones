@@ -59,6 +59,12 @@
     "description_en": "Colors, typography, announcement bar and WhatsApp button for your store, with product page settings.",
     "icon": "tecnocolores.png"
   },
+  "tecnocontactconector": {
+    "name": "Tecno Contact Conector",
+    "description": "Une la Agenda de Tecno Mail y la Libreta de Tecno Facturación en una sola pantalla: búsqueda conjunta, filtros, alta y edición según los campos de cada libreta. Botón flotante en el backoffice.",
+    "description_en": "Joins the Tecno Mail address book and the Tecno Facturación client book in one screen: joint search, filters, create and edit with each book's own fields. Floating back-office button.",
+    "icon": "tecnocontactconector.png"
+  },
   "tecnocssglobal": {
     "name": "Tecno CSS Global",
     "description": "Agregá CSS personalizados a todo el front office, guardalos con nombre y activalos o desactivalos de a uno.",
